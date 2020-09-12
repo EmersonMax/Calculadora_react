@@ -1,0 +1,15 @@
+.Calculator {
+    height: 320px;
+    width: 235px;
+    border-radius:  5px;
+    overflow:hidden;
+    display:grid;
+    background: #EFEFBB;  
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB); 
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows:1fr,60px 60px 60px 60px 60px;
+    border:solid  1px white;
+    
+   
+}
